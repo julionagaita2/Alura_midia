@@ -19,30 +19,31 @@
 <body>
 
     <h1>Alura Midi</h1>
+    
 
     <section class="teclado">
-        <button onclick="tocar()" name="botao" class="tecla tecla_pom">Pom</button>
-        <button onclick="tocar()" name="botao" class="tecla tecla_clap">Clap</button>
-        <button onclick="tocar()" name="botao" class="tecla tecla_tim">Tim</button>
+        <button onclick="tocar(0)" class="tecla tecla_pom">Pom</button>
+        <button onclick="tocar(1)" class="tecla tecla_clap">Clap</button>
+        <button onclick="tocar(2)" class="tecla tecla_tim">Tim</button>
 
-        <button onclick="tocar()" name="botao" class="tecla tecla_puff">Puff</button>
-        <button onclick="tocar()" name="botao" class="tecla tecla_splash">Splash</button>
-        <button onclick="tocar()" name="botao" class="tecla tecla_toim">Toim</button>
+        <button onclick="tocar(3)" class="tecla tecla_puff">Puff</button>
+        <button onclick="tocar(4)" class="tecla tecla_splash">Splash</button>
+        <button onclick="tocar(5)" class="tecla tecla_toim">Toim</button>
 
-        <button onclick="tocar()" name="botao" class="tecla tecla_psh">Psh</button>
-        <button onclick="tocar()" name="botao" class="tecla tecla_tic">Tic</button>
-        <button onclick="tocar()" name="botao" class="tecla tecla_tom">Tom</button>
+        <button onclick="tocar(6)" class="tecla tecla_psh">Psh</button>
+        <button onclick="tocar(7)" class="tecla tecla_tic">Tic</button>
+        <button onclick="tocar(8)" class="tecla tecla_tom">Tom</button>
     </section>
 
-    <audio src="sounds/keyq.wav" class='classeAudio' id="som_tecla_pom"></audio>
-    <audio src="sounds/keyw.wav" class='classeAudio' id="som_tecla_clap"></audio>
-    <audio src="sounds/keye.wav" class='classeAudio' id="som_tecla_tim"></audio>
-    <audio src="sounds/keya.wav" class='classeAudio' id="som_tecla_puff"></audio>
-    <audio src="sounds/keys.wav" class='classeAudio' id="som_tecla_splash"></audio>
-    <audio src="sounds/keyd.wav" class='classeAudio' id="som_tecla_toim"></audio>
-    <audio src="sounds/keyz.wav" class='classeAudio' id="som_tecla_psh"></audio>
-    <audio src="sounds/keyx.wav" class='classeAudio' id="som_tecla_tic"></audio>
-    <audio src="sounds/keyc.wav" class='classeAudio' id="som_tecla_tom"></audio>
+    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+    <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+    <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
     <script src="main.js"></script>
 </body>
 </html>
